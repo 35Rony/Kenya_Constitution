@@ -8,7 +8,7 @@ CORS(app)
 
 # Configure Gemini API
 # Set your API key as an environment variable: export GEMINI_API_KEY='your-api-key'
-GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY', '')
+GEMINI_API_KEY = os.environ.get('AIzaSyDC7HmuZDIWXI2hD-XsxTskKa_IN7jZeyE', '')
 
 if not GEMINI_API_KEY:
     print("WARNING: GEMINI_API_KEY not set. Please set it as an environment variable.")
